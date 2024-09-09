@@ -1,0 +1,107 @@
+.body{
+    background-color: beige;
+    border: black;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 150vh;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: lightblue;
+   
+}
+.box1{
+    margin-top: 30px;
+    background-color:  hsl(263, 55%, 52%);
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border-radius: 15px;
+    color: white;
+    margin-left: 30px;
+    border: 2px solid;
+    border-color: black;
+
+    box-sizing: border-box;
+}
+.box2{
+    background-color: gray;
+    margin-top: 30px;
+    grid-column:3/4 ;
+    grid-row: 1/2;
+    border-radius: 15px; 
+    color: white;
+    border: 2px;
+    border: 2px solid;
+   
+    border-color:black ;
+
+
+}
+
+.box3{
+    background-color: lightgrey;
+    margin-top: 30px;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: black;
+    margin-right: 30px;
+
+   
+
+}
+.box4{
+    background:lightgray;
+   grid-row: 2/3;
+   grid-column: 1/2;
+   border-radius: 15px;
+   border: 2px solid;
+   border-color: black;
+   margin-left: 30px;
+   
+
+
+}
+.box5{
+    background-color: hsl(219, 29%, 14%);
+    
+    grid-column: 2/4;
+    color: white;
+    grid-row: 2/3;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: black;
+}
+
+
+
+.image{
+    
+        width: 150px; 
+        height: 150px; 
+        border-radius: 50%; 
+        object-fit: cover; 
+        border: 2px solid;
+        border-color: purple;
+        margin-top: opx;
+
+    
+}
+.name{
+    display: flex;
+    margin-top: px;
+
+}
+.names{
+    display: flex;
+    margin-top:70px;
+    margin-left: 15px;
+
+}
+p{
+    display: flex;
+}

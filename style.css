@@ -1,0 +1,49 @@
+.main{
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+    margin-left: 300px;
+   
+    
+}
+
+.images{
+    display: flex;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+    
+input::placeholder {
+    font-weight: bold;
+}
+    
+.form{
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+.google{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.button{
+    background-color: blue;
+
+}
+.email{
+    width: 200px;
+    height:300px ;
+}
+.add{
+    color: black;
+    font-size: large;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 12);
+}
+
+

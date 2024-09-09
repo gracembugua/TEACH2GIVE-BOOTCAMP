@@ -1,0 +1,98 @@
+.main{
+    border: whitesmoke;
+    border-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    gap: 150px;
+     background-color: whitesmoke;
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 50px;
+    list-style-type: none;
+
+}
+.login{
+    display: flex;
+    margin-left: 200px;
+}
+.register{
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+
+  
+    
+}
+.container{
+    display: flex;
+    flex: 1px;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.button{
+    background-color: black;
+    margin-top: 50px;
+    height: 15px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    align-items: center;
+    font-size: small;
+    border: solid 1px;
+    border-color:rgb(128, 82, 77);
+    size: 10px;
+    font-weight: bold;
+
+}
+li{
+    display: flex;
+    margin-right: 20px;
+
+}
+.arrow{
+    width: 6px;
+    height: 6px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.arrow1{
+    width: 6px;
+    height: 6px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.data{
+    margin-top: 70px;
+  margin-right: 50px;
+  display: flex;
+  gap: 20px;
+  
+}
+
+.text{
+    color: grey;
+}
+.container2{
+    flex: 1px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.box{
+    background-color:white;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(168, 132, 132);
+
+}

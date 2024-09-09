@@ -1,0 +1,135 @@
+nav{
+    display:flex ;
+    gap:150px;
+    list-style-type: none;  
+    border-color:black ;
+    
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none; 
+    margin-left: 15px;
+    justify-content: center;
+    justify-content: space-between;
+    
+
+}
+.main{
+    background-color: aliceblue;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 ,.box2{
+    margin-top: 20px;
+    flex :1;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px;
+    height:600px;
+    border: 20px;
+}
+.box1{
+    border: solid white;
+    
+}
+.box2{
+    margin-left: 20px;
+}
+.blue_button1{
+    background-color: rgb(91, 91, 185);
+    size: 50px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+}
+.blue_button2{
+    background-color: rgb(91, 91, 167);
+    size: 50px;
+    width: 150px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.button{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.addition1{
+    width: 15px;
+}
+.addition2{
+    width: 15px;
+    margin-left: 6px;
+}
+.text{
+    background-color: beige;
+    margin-bottom:10px ;
+}
+.text2::placeholder{
+    border-radius: 10px;
+    color: rgb(30, 30, 124);
+    
+}
+.space{
+    word-spacing: 100px;
+    flex: 1;
+}
+.coloredfree{
+    color: skyblue;
+}
+.Account{
+    gap: 50px;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+}
+.email{
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+}
+.password{
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+}
+.Apply{
+    box-sizing: 10px;
+}
+.shipping{
+    gap: 10px;
+}
+.headphones{
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.text{
+    border-radius:10px ;
+    height: 30px;
+    background-color: white;
+
+}
+
+.text2{
+    border-radius:10px ;
+    color:black;
+
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+}
+.card{
+    background-color: whitesmoke;
+}
